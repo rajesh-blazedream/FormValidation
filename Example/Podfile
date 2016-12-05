@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FormValidation_Tests' do
+  pod 'FormValidation', :path => '../'
+  
+  
+end
