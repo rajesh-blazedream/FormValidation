@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FormValidation/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'FormValidation' => ['FormValidation/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'FormValidation' => ['FormValidation/Assets/*.*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
